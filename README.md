@@ -12,6 +12,13 @@ Applications can be exploited in many different ways:
 
 ![screen](_img/screen2.png)
 
+## How to use
+
+git clone https://github.com/filipkarc/ssti-flask-hacking-playground.git
+cd ssti-flask-hacking-playground
+python3 __init__.py
+
+
 ## Contact
 
 Feel free to contact me on [Twitter @FilipKarc](https://twitter.com/FilipKarc)

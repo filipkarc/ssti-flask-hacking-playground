@@ -2,7 +2,6 @@ from flask import Flask, render_template_string, request
 
 
 app = Flask(__name__, static_url_path='/static')
-app.secret_of_the_year = "49273 This is secret value"
 
 @app.route("/")
 def home():
@@ -36,5 +35,5 @@ def home():
     return render_template_string(template)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0', port=80)
 
