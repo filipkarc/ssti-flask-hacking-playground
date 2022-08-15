@@ -18,6 +18,9 @@ git clone https://github.com/filipkarc/ssti-flask-hacking-playground.git
 cd ssti-flask-hacking-playground
 python3 __init__.py
 
+You can now check in your browser: http://127.0.0.1:8089
+
+I recommend using Firefox + FoxyProxy plugin to BurpSuite proxy. 
 
 ## Contact
 
