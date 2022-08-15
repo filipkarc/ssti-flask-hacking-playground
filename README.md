@@ -16,7 +16,6 @@ Applications can be exploited in many different ways:
 
 git clone https://github.com/filipkarc/ssti-flask-hacking-playground.git 
 
-
  cd ssti-flask-hacking-playground
 python3 __init__.py
 
