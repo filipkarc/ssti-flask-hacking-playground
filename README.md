@@ -12,7 +12,24 @@ Applications can be exploited in many different ways:
 
 ![screen](_img/screen2.png)
 
-## How to use
+## How to use it - DOCKER
+
+The easiest way is to start the application using docker in Linux.
+
+```
+Linux@amd64 (Intel processors):
+
+docker run -p 8089:8089 -d filipkarc/ssti-flask-hacking-playground
+
+Linux@AppleSilicon (tested on Apple M1):
+
+docker run -p 8089:8089 -d filipkarc/ssti-flask-hacking-playground:apple
+```
+
+After 1 minute, it should be visible in the browser: http://127.0.0.1:8089
+
+
+## How to use it - without docker:
 
 ```
 git clone https://github.com/filipkarc/ssti-flask-hacking-playground.git 
@@ -27,13 +44,12 @@ python3 __init__.py
 
 You can now check in your browser: http://127.0.0.1:8089
 
-I recommend using Firefox + FoxyProxy plugin to BurpSuite proxy. 
 
 ## Contact
 
 Feel free to contact me on [Twitter @FilipKarc](https://twitter.com/FilipKarc).
 
-Proposals? Visit my [LinkedIn](https://www.linkedin.com/in/filip-karczewski/).
+Be sure to follow me on LinkedIn: [LinkedIn](https://www.linkedin.com/in/filip-karczewski/).
 
 
   
