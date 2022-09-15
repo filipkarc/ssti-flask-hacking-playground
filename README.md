@@ -45,11 +45,9 @@ python3 __init__.py
 You can now check in your browser: http://127.0.0.1:8089
 
 
-## Contact
+## Follow me
 
-Feel free to contact me on [Twitter @FilipKarc](https://twitter.com/FilipKarc).
-
-Be sure to follow me on LinkedIn: [LinkedIn](https://www.linkedin.com/in/filip-karczewski/).
+Follow me on [Twitter @FilipKarc](https://twitter.com/FilipKarc) and on LinkedIn: [LinkedIn](https://www.linkedin.com/in/filip-karczewski/).
 
 
   
